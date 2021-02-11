@@ -1,0 +1,30 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "14.15.4",
+    "npm": "6.14.10"
+  },
+  "scripts": {
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\"",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jksands/streaming-media-assignment.git"
+  },
+  "author": "Jonathan Sands",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jksands/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/jksands/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
